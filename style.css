@@ -4,12 +4,18 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
+.login-page , .cadastro-page{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     background: #172031;
+}
+#index{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #121212;
 }
 .login{
     background:rgba(0,0,0,0.5);
